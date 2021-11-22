@@ -63,8 +63,8 @@
 
   &:not(.active):hover {
     color: #fff;
-    background-color: rgb(28, 51, 51);
-    border-radius: 10px;
+    background-color: rgb(49, 28, 51);
+    border-radius: 25px;
   }
 }
 
@@ -198,10 +198,10 @@ input[type="checkbox"] {
 #search {
   outline: none;
   border-color: #09052e;
-  background-color: transparent;
+  background-color: #96494d57;
   display: inline-block;
   border-radius: 30px;
-  color: #09052e;
+  color: #ffffff;
 }
 
 #search1 {

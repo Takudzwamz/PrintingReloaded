@@ -28,19 +28,19 @@ export class HomeComponent implements OnInit {
   showNavigationArrows = false;
   showNavigationIndicators = false;
   public images = [
-    'https://res.cloudinary.com/dyzeuqi75/image/upload/v1636547171/robert-laursoo-WHPOFFzY9gU-unsplash_oayk5w.jpg',
+    'https://res.cloudinary.com/dyzeuqi75/image/upload/v1637598697/9_mnwzhr.jpg',
 
-    'https://res.cloudinary.com/dyzeuqi75/image/upload/v1636547191/pexels-kelson-downes-1149137_eu3el9.jpg',
+    'https://res.cloudinary.com/dyzeuqi75/image/upload/v1637598619/7_q2iw21.jpg',
 
-    'https://res.cloudinary.com/dyzeuqi75/image/upload/v1636547192/shreesha-bhat-59nIOuU7Mp0-unsplash_hoanwi.jpg',
+    'https://res.cloudinary.com/dyzeuqi75/image/upload/v1637598651/4_k6bmgf.jpg',
 
-    'https://res.cloudinary.com/dyzeuqi75/image/upload/v1636547195/pexels-jan-kop%C5%99iva-3399938_odeelo.jpg',
+    'https://res.cloudinary.com/dyzeuqi75/image/upload/v1637598898/BURST20210817112306161_COVER_ziogpa.jpg',
   ];
   titles = [
-    'Summer tyres',
-    'Winter tyres',
-    'All-season tyres',
-    '4x4 truck tyres',
+    'Wall art',
+    'Flower vases',
+    'Lighting fixtures',
+    'Action figures',
   ];
   discription = [
     // tslint:disable-next-line: max-line-length
@@ -53,6 +53,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.canonicalService.setCanonicalURL();
-    this.title.setTitle('Kabuya Tyre Services & Projects');
+    this.title.setTitle('3D Printing Studio');
   }
 }

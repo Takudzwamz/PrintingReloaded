@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
         name: 'keywords',
         content:
           // tslint:disable-next-line: max-line-length
-          'Kabuyu Christopher, Tyres, Kempton park, Cars',
+          '3D Printing, 3D, Manufacturing, Printing, Action figures, Flower vases, Lighting fixtures, Wall art, Wall Decoration, Custom gifts',
       },
       { name: 'robots', content: 'index, follow' },
 
@@ -34,19 +34,19 @@ export class AppComponent implements OnInit {
         name: 'description',
         content:
           // tslint:disable-next-line: max-line-length
-          'I am a Software Engineer who is passionate about software advancements. If you like what I do please dont hesitate to contact me, lets work together',
+          'Lets change the world with 3D printing, With 3D printing we can achieve more.',
       },
-      { name: 'author', content: 'Sputnik Tech' },
-      { name: 'twitter:card', content: 'Takudzwa Mupanesure' },
+      { name: 'author', content: '3D Printing Studio' },
+      { name: 'twitter:card', content: '3D Printing Studio' },
       {
         name: 'twitter:title',
-        content: 'Software is the backbone of the modern society',
+        content: '3D Printing Studio',
       },
       {
         name: 'twitter:description',
         content:
           // tslint:disable-next-line: max-line-length
-          'I am a Software Engineer who is passionate about software advancements. If you like what I do please dont hesitate to contact me, lets work together',
+          'Lets change the world with 3D printing, With 3D printing we can achieve more.',
       },
     ]);
   }
