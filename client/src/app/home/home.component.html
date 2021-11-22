@@ -1,0 +1,393 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet" />
+<section style="
+    background: rgba(255, 255, 255, 0.1);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+    border: 1px solid transparent;
+  ">
+  <div id="colorlib-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 animate-box">
+          <div class="owl-carousel3">
+            <div class="item">
+              <ngb-carousel *ngIf="images" [showNavigationArrows]="showNavigationArrows"
+                [showNavigationIndicators]="showNavigationIndicators">
+                <ng-template ngbSlide *ngFor="let image of images; index as i; index as j">
+                  <div class="picsum-img-wrapper">
+                    <img [src]="image" alt="Random slide" class="pic" />
+                  </div>
+
+                  <div style="
+                      background: rgba(255, 255, 255, 0.1);
+
+                      backdrop-filter: blur(10px);
+                      -webkit-backdrop-filter: blur(10px);
+                      border-radius: 20px;
+                      margin-top: 200px;
+                      border: 1px solid transparent;
+                    " class="carousel-caption">
+                    <h1 style="color:azure;">{{ titles[i] }}</h1>
+                    <p style="margin: 5px">{{ discription[j] }}</p>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <a href="/shop" style="
+                          color: #ffffff;
+                          background-color: #480470;
+                          border-radius: 30px;
+                          border: none;
+                          margin: 10px 10px;
+                          padding: 10px 10px;
+                          text-align: center;
+                          font-size: 25px;
+                        " class="btn btn-secondary active">
+                        <i class="fas  fa-shopping-cart"></i> Shop
+                      </a>
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-carousel>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-md-push-1 animate-box">
+          <div class="about-desc">
+            <div class="owl-carousel3">
+              <div class="item">
+                <h2>
+                  <span class="header">Kabuya</span><span  class="header">Tyre services &
+                    projects</span>
+                </h2>
+              </div>
+              <div class="item">
+                <h3>
+                  <span style="color: rgb(116, 27, 57); font-family: Segoe UI; ">We supply & fix </span><span
+                    style="color: rgb(68, 68, 204)"> new, recap & used tyres</span>
+                </h3>
+              </div>
+              <div class="item">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ijnkssg0.json"
+                  background="transparent" speed="1" style="width: 250px; height: 250px" loop autoplay></lottie-player>
+              </div>
+              <div class="item">
+                <h1>Who we are and what we do</h1>
+              </div>
+            </div>
+            <div class="desc">
+              <div class="rotate">
+                <h2 class="heading">About Us</h2>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+              <aside>
+                <p>Get all your tyres from us.</p>
+              </aside>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Non arcu
+                risus quis varius quam. Neque ornare aenean euismod elementum nisi
+                quis eleifend quam adipiscing. Phasellus vestibulum lorem sed risus.
+                Mi quis hendrerit dolor magna eget est.</p>
+              <p class="colorlib-social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100010630635297"><i
+                    style="color: #4267b2; margin-right: 2px" class="fab fa-2x fa-facebook"></i></a>
+                <a href="https://twitter.com/TMupanesure?t=YI0YAy8Dgk4ABZ_V-qna7w&s=08"><i
+                    style="color: #1da1f2; margin-right: 2px" class="fab fa-2x fa-twitter"></i></a>
+                <a href="https://www.instagram.com/sput.niktech/?r=nametag"><i style="color: #5b51d8; margin-right: 2px"
+                    class="fab fa-2x fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/takudzwa-mupanesure-14a3321b7"><i
+                    style="color: #0072b1; margin-right: 2px" class="fab fa-2x fa-linkedin"></i></a>
+                <a href="https://github.com/Takudzwamz"><i style="color: #181412; margin-right: 2px"
+                    class="fab fa-2x fa-github-square"></i></a>
+              </p>
+              <p>
+                <a href="/contact_me" style="
+                    color: #ffffff;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    background-color: #480470;
+                    border-color: transparent;
+                  " class="btn btn-primary btn-outline">Contact US!</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="hr-line1" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="welcome" data-scroll-index="0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="welcome-content text-center">
+          <h2 class="item">Our workflow</h2>
+          <div class="taku">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="item">
+                  <div class="icon">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_pMgZwk.json"
+                      background="transparent" speed="1" style="width: 300px; height: 150px;" loop autoplay>
+                    </lottie-player>
+                  </div>
+                  <h3 style="color: #4343cb">You make an Order</h3>
+                  <p>
+                    Make an order, by using either of the following,
+                    our website, phone or email. We will start preparing your order.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item">
+                  <div class="icon">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_jvlBSF.json"
+                      background="transparent" speed="1" style="width: 300px; height: 150px;" loop autoplay>
+                    </lottie-player>
+                  </div>
+                  <h3 style="color: rgb(68, 68, 204)">We prepare your order</h3>
+                  <p> After your order is made, we will prepare it. We will call you concening your order on the contact
+                    details you provided.</p>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item">
+                  <div class="icon">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_kFONSR.json"
+                      background="transparent" speed="1" style="width: 300px; height: 150px;" loop autoplay>
+                    </lottie-player>
+                  </div>
+                  <h3 style="color: rgb(68, 68, 204)">We deliver to you</h3>
+                  <p> After preparing your order, we are going to get in touch with you concerning delivery time and
+                    date</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="welcome-content color text-center">
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="hr-line1" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="welcome" data-scroll-index="0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="welcome-content text-center">
+          <h2 class="item">Services we offer</h2>
+
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Non arcu
+            risus quis varius quam. Neque ornare aenean euismod elementum nisi
+            quis eleifend quam adipiscing. Phasellus vestibulum lorem sed risus.
+            Mi quis hendrerit dolor magna eget est.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="welcome-content color text-center">
+          <ul class="kards">
+            <li>
+              <a class="kard">
+                <img
+                  src="https://res.cloudinary.com/dyzeuqi75/image/upload/v1636547195/pexels-jan-kop%C5%99iva-3399938_odeelo.jpg"
+                  class="kard__image" alt="" />
+                <div class="kard__overlay">
+                  <div class="kard__header">
+                    <svg class="kard__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+
+                    <div class="kard__header-text">
+                      <h3 class="kard__title">Asperiores</h3>
+                      <span class="kard__status">Read more</span>
+                    </div>
+                  </div>
+                  <p class="kard__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="kard">
+                <img
+                  src="https://res.cloudinary.com/dyzeuqi75/image/upload/v1636547192/shreesha-bhat-59nIOuU7Mp0-unsplash_hoanwi.jpg"
+                  class="kard__image" alt="" />
+                <div class="kard__overlay">
+                  <div class="kard__header">
+                    <svg class="kard__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+
+                    <div class="kard__header-text">
+                      <h3 class="kard__title">Lorem ipsum</h3>
+
+                      <span class="kard__status">Read more</span>
+                    </div>
+                  </div>
+                  <p class="kard__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="kard">
+                <img
+                  src="https://res.cloudinary.com/dyzeuqi75/image/upload/v1636547191/pexels-kelson-downes-1149137_eu3el9.jpg"
+                  class="kard__image" alt="" />
+                <div class="kard__overlay">
+                  <div class="kard__header">
+                    <svg class="kard__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+
+                    <div class="kard__header-text">
+                      <h3 class="kard__title">Lorem ipsum</h3>
+
+                      <span class="kard__status">Read more</span>
+                    </div>
+                  </div>
+                  <p class="kard__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="hr-line1" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="welcome" data-scroll-index="0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="welcome-content text-center">
+          <h2 class="item">FAQ's</h2>
+
+          <p style="text-align:center;">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_z4uhcdqn.json" background="transparent"
+              speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="welcome-content color text-center">
+          <div class="faq-wrapper">
+
+            <details>
+              <summary class="disable-select">Lorem ipsum  dolor sit, amet consectetur adipisicing elit. Ex
+                necessitatibus ullam alias explicabo reiciendis
+                exercitationem placeat.</summary>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex necessitatibus ullam alias explicabo
+                reiciendis
+                exercitationem placeat adipisci reprehenderit minus, magnam sunt soluta laboriosam voluptas illum!
+                Ducimus eius
+                recusandae possimus. Iusto.</div>
+            </details>
+            <details>
+              <summary class="disable-select">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
+                necessitatibus ullam alias explicabo reiciendis
+                exercitationem placeat</summary>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex necessitatibus ullam alias explicabo
+                reiciendis
+                exercitationem placeat adipisci reprehenderit minus, magnam sunt soluta laboriosam voluptas illum!
+                Ducimus eius
+                recusandae possimus. Iusto.</div>
+            </details>
+            <details>
+              <summary class="disable-select">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
+                necessitatibus ullam alias explicabo reiciendis
+                exercitationem placeat</summary>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex necessitatibus ullam alias explicabo
+                reiciendis
+                exercitationem placeat adipisci reprehenderit minus, magnam sunt soluta laboriosam voluptas illum!
+                Ducimus eius
+                recusandae possimus. Iusto.</div>
+            </details>
+            <details>
+              <summary class="disable-select">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
+                necessitatibus ullam alias explicabo reiciendis
+                exercitationem placeat.</summary>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex necessitatibus ullam alias explicabo
+                reiciendis
+                exercitationem placeat adipisci reprehenderit minus, magnam sunt soluta laboriosam voluptas illum!
+                Ducimus eius
+                recusandae possimus. Iusto.</div>
+            </details>
+            <details>
+              <summary class="disable-select">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
+                necessitatibus ullam alias explicabo reiciendis
+                exercitationem placeat.</summary>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex necessitatibus ullam alias explicabo
+                reiciendis
+                exercitationem placeat adipisci reprehenderit minus, magnam sunt soluta laboriosam voluptas illum!
+                Ducimus eius
+                recusandae possimus. Iusto.</div>
+            </details>
+            <details>
+              <summary class="disable-select">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</summary>
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex necessitatibus ullam alias explicabo
+                reiciendis
+                exercitationem placeat adipisci reprehenderit minus, magnam sunt soluta laboriosam voluptas illum!
+                Ducimus eius
+                recusandae possimus. Iusto.</div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="hr-line1" />
+      </div>
+    </div>
+  </div>
+</section>

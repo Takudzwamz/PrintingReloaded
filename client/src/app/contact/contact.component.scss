@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:500,700|Roboto:400,600");
+.section-padding {
+  padding: 45px 0;
+}
+.section-dark {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+  color: black;
+  z-index: -2;
+}
+
